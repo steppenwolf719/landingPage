@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif; 
+    display: flex; /* Torna tudo editavel e flexivel */
+    flex-direction: column; /* Forma de coluna */
+    align-items: center; /* centraliza */
+    justify-content: center; /* centraliza */
+    text-align: center; /* centraliza todo o resto*/
+    height: 100vh; /* deixa no meio da pagina */
+    color: black;
+}
+
+#time {
+    font-size: 8rem; /*uma forma de medida, pode usar px se quiser*/
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+h2 {    
+margin-bottom: 0.5rem;
+opacity: 0.6;
+}
+
+/* hr {
+    display: flex;
+} */
+
+@media(max-width: 700px) { /*menor em menores telas*/
+    #time{
+        font-size: 6rem;;
+    }
+}
